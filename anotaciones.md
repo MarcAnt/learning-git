@@ -19,3 +19,7 @@ Para ver los cambios que se han hecho:
 Para deshacer cambios: 
 
 `git restore`
+
+Cambiar el comentario del último commit: 
+
+`git commit --amend -m "added body selector to main.css"`
