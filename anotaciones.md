@@ -7,3 +7,7 @@ Regresar un archivo del staging area:
 Regresar todos los archivos del staging area: 
 
 `git rm -r --cached .`
+
+Para ver los cambios que se han hecho: 
+
+`git diff`
