@@ -8,6 +8,14 @@ Regresar todos los archivos del staging area:
 
 `git rm -r --cached .`
 
+Para obtener los hash de los commits que se han hecho: 
+
+`git log`
+
 Para ver los cambios que se han hecho: 
 
 `git diff`
+
+Para deshacer cambios: 
+
+`git restore`
