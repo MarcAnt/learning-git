@@ -47,3 +47,7 @@ Cambiar entre ramas o braches:
 Crear la nueva rama en github: 
 
 `git push -u origin xxxx-xxx`
+
+Para crear y cambiar de una vez entre ramas: 
+
+`git checkout -b x-xxxx`
