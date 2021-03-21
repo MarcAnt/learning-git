@@ -55,3 +55,7 @@ Para crear y cambiar de una vez entre ramas:
 Para eliminar una rama (debes estar en la rama principal para hacerlo): 
 
 `git branch -d x-xxxx`
+
+Para unir entre ramas: 
+
+`git mergue xxxx-xxx`
