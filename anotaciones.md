@@ -40,7 +40,10 @@ Crear a la rama main:
 
 `git checkout -`
 
-
 Cambiar entre ramas o braches: 
 
 `git checkout xxxx-xxx`
+
+Crear la nueva rama en github: 
+
+`git push -u origin xxxx-xxx`
