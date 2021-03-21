@@ -35,27 +35,3 @@ Todos los ramas o branches:
 Crear una rama o branch: 
 
 `git branch xxxx-xxx`
-
-Crear a la rama main: 
-
-`git checkout -`
-
-Cambiar entre ramas o braches: 
-
-`git checkout xxxx-xxx`
-
-Crear la nueva rama en github: 
-
-`git push -u origin xxxx-xxx`
-
-Para crear y cambiar de una vez entre ramas: 
-
-`git checkout -b x-xxxx`
-
-Para eliminar una rama (debes estar en la rama principal para hacerlo): 
-
-`git branch -d x-xxxx`
-
-Para unir entre ramas: 
-
-`git mergue xxxx-xxx`
