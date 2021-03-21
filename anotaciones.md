@@ -35,8 +35,3 @@ Todos los ramas o branches:
 Crear una rama o branch: 
 
 `git branch xxxx-xxx`
-
-
-Cambiar entre ramas o braches: 
-
-`git checkout xxxx-xxx`
