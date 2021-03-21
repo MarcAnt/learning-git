@@ -51,3 +51,7 @@ Crear la nueva rama en github:
 Para crear y cambiar de una vez entre ramas: 
 
 `git checkout -b x-xxxx`
+
+Para eliminar una rama (debes estar en la rama principal para hacerlo): 
+
+`git branch -d x-xxxx`
