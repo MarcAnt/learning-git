@@ -23,3 +23,20 @@ Para deshacer cambios:
 Cambiar el comentario del último commit: 
 
 `git commit --amend -m "added body selector to main.css"`
+
+Obtener todos los branch remotos:
+
+`git branch -r`
+
+Todos los ramas o branches: 
+
+`git branch -a`
+
+Crear una rama o branch: 
+
+`git branch xxxx-xxx`
+
+
+Cambiar entre ramas o braches: 
+
+`git checkout xxxx-xxx`
