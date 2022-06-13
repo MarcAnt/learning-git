@@ -1,26 +1,33 @@
 # Anotaciones de Aprendiendo git y github de https://www.youtube.com/watch?v=3fUbBnN_H2c
 
-Regresar un archivo del staging area: 
+Configurar git globalmene
+
+```bash
+    git config --global user.name MarcAnt
+    git config --global user.email @mail.com
+```
+
+Regresar un archivo del staging area:
 
 `git rm --cached index.html`
 
-Regresar todos los archivos del staging area: 
+Regresar todos los archivos del staging area:
 
 `git rm -r --cached .`
 
-Para obtener los hash de los commits que se han hecho: 
+Para obtener los hash de los commits que se han hecho:
 
 `git log`
 
-Para ver los cambios que se han hecho: 
+Para ver los cambios que se han hecho:
 
 `git diff`
 
-Para deshacer cambios: 
+Para deshacer cambios:
 
 `git restore`
 
-Cambiar el comentario del último commit: 
+Cambiar el comentario del último commit:
 
 `git commit --amend -m "added body selector to main.css"`
 
@@ -28,43 +35,43 @@ Obtener todos los branch remotos:
 
 `git branch -r`
 
-Todos los ramas o branches: 
+Todos los ramas o branches:
 
 `git branch -a`
 
-Crear una rama o branch: 
+Crear una rama o branch:
 
 `git branch xxxx-xxx`
 
-Crear a la rama main: 
+Crear a la rama main:
 
 `git checkout -`
 
-Cambiar entre ramas o braches: 
+Cambiar entre ramas o braches:
 
 `git checkout xxxx-xxx`
 
-Crear la nueva rama en github: 
+Crear la nueva rama en github:
 
 `git push -u origin xxxx-xxx`
 
-Para crear y cambiar de una vez entre ramas: 
+Para crear y cambiar de una vez entre ramas:
 
 `git checkout -b x-xxxx`
 
-Para eliminar una rama (debes estar en la rama principal para hacerlo): 
+Para eliminar una rama (debes estar en la rama principal para hacerlo):
 
 `git branch -d x-xxxx`
 
-Para unir entre ramas: 
+Para unir entre ramas:
 
 `git mergue xxxx-xxx`
 
-Para actualizar la unión entre ramas: 
+Para actualizar la unión entre ramas:
 
 `git mergue xxxx-xxx`
 
-Rebase o traer los cambios del repo remoto al main repo en local: 
+Rebase o traer los cambios del repo remoto al main repo en local:
 
 `git pull -r origin main`
 `git rebase --continue`
