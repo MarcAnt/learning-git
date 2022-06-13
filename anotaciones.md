@@ -75,6 +75,10 @@ Para actualizar la unión entre ramas:
 
 `git mergue xxxx-xxx`
 
+Traer un comit de alguna rama:
+
+`git cherry-pick hash-de-la-rama-del-comit`
+
 Rebase o traer los cambios del repo remoto al main repo en local:
 
 `git pull -r origin main`
