@@ -43,6 +43,10 @@ Crear una rama o branch:
 
 `git branch xxxx-xxx`
 
+Eliminar una rama:
+
+`git branch -D xxxx-xxx`
+
 Crear a la rama main:
 
 `git checkout -`
