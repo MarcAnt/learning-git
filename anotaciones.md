@@ -1,4 +1,4 @@
-# Anotaciones de Aprendiendo git y github de https://www.youtube.com/watch?v=3fUbBnN_H2c
+# Anotaciones de Aprendiendo git y github de <https://www.youtube.com/watch?v=3fUbBnN_H2c>
 
 Configurar git globalmene
 
@@ -6,6 +6,10 @@ Configurar git globalmene
     git config --global user.name MarcAnt
     git config --global user.email @mail.com
 ```
+
+Cambiar el nombre a una rama. Ejemplo de cambiar de master a main
+
+`git switch -c main`
 
 Regresar un archivo del staging area:
 
@@ -15,9 +19,13 @@ Regresar todos los archivos del staging area:
 
 `git rm -r --cached .`
 
-Para obtener los hash de los commits que se han hecho:
+Para obtener los hash de los commits que se han hecho en una rama:
 
 `git log`
+
+Para obtener todos los hash de los commits que se han hecho:
+
+`git log --branches='*'`
 
 Para ver los cambios que se han hecho:
 
