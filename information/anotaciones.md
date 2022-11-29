@@ -91,3 +91,15 @@ Rebase o traer los cambios del repo remoto al main repo en local:
 
 `git pull -r origin main`
 `git rebase --continue`
+
+Crear un espacio para continuar en otro momento
+
+`git stash`
+
+Ver la lista de stashes
+
+`git stash list`
+
+Ver lo que contiene un slash
+
+`git stash show`
