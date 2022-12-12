@@ -103,3 +103,67 @@ Ver la lista de stashes
 Ver lo que contiene un slash
 
 `git stash show`
+
+## GitFlow Commands
+
+Inicar gitflow: `git flow init`
+
+Crear una feature:
+
+`git flow feature start name-of-branch`
+
+Publicar una feature:
+
+`git flow feature publish name-of-branch`
+
+Obtener una feature publicada
+
+`git flow feature pull name-of-branch`
+
+Finalizar una feature
+
+`git flow feature finish  name-of-branch`
+
+Crear una release
+
+```bash
+git flow release start v1.0.0
+git tag -a v1.0.0 -m "Social auth feature"
+git flow release publish social-auth
+git push origin --tags
+```
+
+Preparar para subir los datos:
+
+```bash
+git add -A
+git commit -m "social_auth_2.py fixed."
+git push
+git tag -a v1.0.2 -m "Social auth fixed."
+git push origin --tags
+Publicar la release
+```
+
+`git flow release publish v1.0.0`
+
+Finalizar la release:
+
+`git flow release finish v1.0.0`
+
+Crear una Hotfixe:
+
+`git flow hotfix start vx.x.x`
+
+Creando el commit para el hotfix
+
+```bash
+git add -A
+git commit -m "social_auth_2.py hotfix."
+git push
+git tag -a v1.0.3 -m "social auth hotfix."
+git push origin --tags
+```
+
+Finalizando el hotfix
+
+`git flow hotfix finish vv1.0.0`
