@@ -104,25 +104,39 @@ Ver lo que contiene un slash
 
 `git stash show`
 
-## GitFlow Commands
+---
 
-Inicar gitflow: `git flow init`
+## **GitFlow Commands**
+
+Inicar gitflow:
+
+```bash
+git flow init
+```
 
 Crear una feature:
 
-`git flow feature start name-of-branch`
+```bash
+git flow feature start name-of-branch
+```
 
 Publicar una feature:
 
-`git flow feature publish name-of-branch`
+```bash
+git flow feature publish name-of-branch
+```
 
 Obtener una feature publicada
 
-`git flow feature pull name-of-branch`
+```bash
+git flow feature pull name-of-branch
+```
 
 Finalizar una feature
 
-`git flow feature finish  name-of-branch`
+```bash
+git flow feature finish  name-of-branch
+```
 
 Crear una release
 
@@ -144,15 +158,21 @@ git push origin --tags
 Publicar la release
 ```
 
-`git flow release publish v1.0.0`
+```bash
+git flow release publish v1.0.0
+```
 
 Finalizar la release:
 
-`git flow release finish v1.0.0`
+```bash
+git flow release finish v1.0.0
+```
 
 Crear una Hotfixe:
 
-`git flow hotfix start vx.x.x`
+```bash
+git flow hotfix start vx.x.x
+```
 
 Creando el commit para el hotfix
 
@@ -166,4 +186,6 @@ git push origin --tags
 
 Finalizando el hotfix
 
-`git flow hotfix finish vv1.0.0`
+```bash
+git flow hotfix finish vv1.0.0
+```
